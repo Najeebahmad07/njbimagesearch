@@ -70,9 +70,6 @@ dayNightTheme = () => {
       document.querySelector("#grid").appendChild(image);
     }
   }
-
-  document.oncontextmenu = function() {
-    return false;
-}
+ 
 
   
