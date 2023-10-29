@@ -122,3 +122,45 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+::selection{
+
+    background-color: hotpink;
+}
+
+.footer {
+  background-color: #85cb;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #faf6f6;
+
+}
